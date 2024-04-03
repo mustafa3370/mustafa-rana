@@ -122,19 +122,19 @@ footer .copy {
   text-align: center;
   }
   .man h1{
-    font-size: 2rem;
-    letter-spacing: 5px;
+    font-size: 4rem;
+    letter-spacing: 4px;
     color: black!important;
     animation: textEntry 3.5s ease-out forwards;
   }
   .women h1{
-    font-size: 2rem;
+    font-size: 4rem;
     color: black!important;
     animation: textEntry 4s ease-out forwards;
   }
   .img{
     width: 5%;
-    opacity: 0.5;
+    opacity: 0.8;
     animation: textEntry 3.5s ease-out forwards;
   }
   .fonttxt {
