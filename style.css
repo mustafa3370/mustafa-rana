@@ -40,12 +40,12 @@
 .man h1{
   font-size: 8rem;
   letter-spacing: 20px;
-  color: black;
+  color: black !important;
   animation: textEntry 3.5s ease-out forwards;
 }
 .women h1{
   font-size: 8rem;
-  color: black;
+  color: black !important;
   animation: textEntry 4s ease-out forwards;
 }
 .img{
@@ -54,30 +54,31 @@
   animation: textEntry 3.5s ease-out forwards;
 }
 .inv{
-  color: rgb(14, 14, 14);
+  color: rgb(14, 14, 14) !important;
   font-size: 30px;
   font-family: "Licorice", cursive;
   font-weight: 700;
   font-style: normal;
   margin-top: 10px;
   animation: textEntry 4.5s ease-out forwards;
+  letter-spacing: 5px;
 }
 .date{
-  color: black;
+  color: black !important;
   font-size: 25px;
   font-weight: bold;
   animation: textEntry 5s ease-out forwards;
 }
 button {
   outline: none;
-  color: #030303;
+  color: #030303!important;
   padding: 0.5em;
   padding-left: 3em;
   padding-right: 3em;
-  border: 2px dashed #DAA06D;
+  border: 2px dashed #DAA06D!important;
   border-radius: 15px;
-  background-color: #EADDCA;
-  box-shadow: 0 0 0 4px #EADDCA, 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+  background-color: #EADDCA !important;
+  box-shadow: 0 0 0 4px #EADDCA, 2px 2px 4px 2px rgba(0, 0, 0, 0.5)!important;
   transition: .1s ease-in-out, .4s color;
   font-weight: bold;
   animation: textEntry 5s ease-out forwards;
@@ -85,12 +86,12 @@ button {
 
 button:active {
   transform: translateX(0.1em) translateY(0.1em);
-  box-shadow: 0 0 0 4px #EADDCA, 1.5px 1.5px 2.5px 1.5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0 4px #EADDCA, 1.5px 1.5px 2.5px 1.5px rgba(0, 0, 0, 0.5)!important;
 }
 footer .copy {
   margin-top: 30px;
   font-size: 14px;
-  color: #030303;
+  color: #030303!important;
   line-height: 17px;
   font-weight: 400;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -117,12 +118,12 @@ footer .copy {
   .man h1{
     font-size: 5rem;
     letter-spacing: 20px;
-    color: black;
+    color: black!important;
     animation: textEntry 3.5s ease-out forwards;
   }
   .women h1{
     font-size: 5rem;
-    color: black;
+    color: black!important;
     animation: textEntry 4s ease-out forwards;
   }
   .img{
