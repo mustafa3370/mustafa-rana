@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -19,7 +19,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: "Licorice", cursive;
+  font-family: "Kaushan Script", cursive;
   font-weight: 400;
   font-style: normal;
   text-align: center;
@@ -38,15 +38,18 @@
 
 
 .man h1{
-  font-size: 8rem;
-  letter-spacing: 20px;
+  letter-spacing: 2px;
+  font-size: 5rem;
   color: black !important;
   animation: textEntry 3.5s ease-out forwards;
+  font-family: "Kaushan Script", cursive;
 }
 .women h1{
-  font-size: 8rem;
+  letter-spacing: 2px;
+  font-size: 5rem;
   color: black !important;
   animation: textEntry 4s ease-out forwards;
+  font-family: "Kaushan Script", cursive;
 }
 .img{
   width: 2%;
@@ -55,19 +58,21 @@
 }
 .inv{
   color: rgb(14, 14, 14) !important;
-  font-size: 30px;
+  font-size: 15px;
   font-family: "Licorice", cursive;
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal;
-  margin-top: 10px;
+  margin-top: 25px;
   animation: textEntry 4.5s ease-out forwards;
-  letter-spacing: 5px;
+  letter-spacing:2px;
+  font-family: "Kaushan Script", cursive;
 }
 .date{
   color: black !important;
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 10px;
+  font-weight: 400;
   animation: textEntry 5s ease-out forwards;
+  font-family: "Kaushan Script", cursive;
 }
 button {
   outline: none;
@@ -82,6 +87,7 @@ button {
   transition: .1s ease-in-out, .4s color;
   font-weight: bold;
   animation: textEntry 5s ease-out forwards;
+  font-family: "Kaushan Script", cursive;
 }
 
 button:active {
@@ -89,40 +95,40 @@ button:active {
   box-shadow: 0 0 0 4px #EADDCA, 1.5px 1.5px 2.5px 1.5px rgba(0, 0, 0, 0.5)!important;
 }
 footer .copy {
-  margin-top: 30px;
+  margin-top: 2rem;
   font-size: 14px;
   color: #030303!important;
   line-height: 17px;
   font-weight: 400;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Kaushan Script", cursive;
   opacity: .4;
 }
 
 @media (max-width: 500px) {
   .inv{
-    font-size: 25px;
+    font-size: 15px;
     width: 100%;
     padding-top:25px;
   }
   .names {
-    align-items: center;
+  align-items: center;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: "Licorice", cursive;
+  font-family: "Kaushan Script", cursive;
   font-weight: 400;
   font-style: normal;
   text-align: center;
   }
   .man h1{
-    font-size: 5rem;
-    letter-spacing: 20px;
+    font-size: 2rem;
+    letter-spacing: 5px;
     color: black!important;
     animation: textEntry 3.5s ease-out forwards;
   }
   .women h1{
-    font-size: 5rem;
+    font-size: 2rem;
     color: black!important;
     animation: textEntry 4s ease-out forwards;
   }
@@ -132,6 +138,6 @@ footer .copy {
     animation: textEntry 3.5s ease-out forwards;
   }
   .fonttxt {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
