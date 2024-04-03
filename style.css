@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+.hero {
+  background: rgba(0, 0, 0, 0.2) url(./decorative-dreamy-arrangement-with-dried-flowers.jpg);
+  height: 101vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.names{
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Licorice", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  
+}
+@keyframes textEntry {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+.man h1{
+  font-size: 8rem;
+  letter-spacing: 20px;
+  color: black;
+  animation: textEntry 3.5s ease-out forwards;
+}
+.women h1{
+  font-size: 8rem;
+  color: black;
+  animation: textEntry 4s ease-out forwards;
+}
+.img{
+  width: 2%;
+  opacity: 0.5;
+  animation: textEntry 3.5s ease-out forwards;
+}
+.inv{
+  color: rgb(14, 14, 14);
+  font-size: 30px;
+  font-family: "Licorice", cursive;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 10px;
+  animation: textEntry 4.5s ease-out forwards;
+}
+.date{
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  animation: textEntry 5s ease-out forwards;
+}
+button {
+  outline: none;
+  color: #030303;
+  padding: 0.5em;
+  padding-left: 3em;
+  padding-right: 3em;
+  border: 2px dashed #DAA06D;
+  border-radius: 15px;
+  background-color: #EADDCA;
+  box-shadow: 0 0 0 4px #EADDCA, 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+  transition: .1s ease-in-out, .4s color;
+  font-weight: bold;
+  animation: textEntry 5s ease-out forwards;
+}
+
+button:active {
+  transform: translateX(0.1em) translateY(0.1em);
+  box-shadow: 0 0 0 4px #EADDCA, 1.5px 1.5px 2.5px 1.5px rgba(0, 0, 0, 0.5);
+}
+footer .copy {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #030303;
+  line-height: 17px;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  opacity: .4;
+}
+
+@media (max-width: 500px) {
+  .inv{
+    font-size: 25px;
+    width: 100%;
+    padding-top:25px;
+  }
+  .names {
+    align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Licorice", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  }
+  .man h1{
+    font-size: 5rem;
+    letter-spacing: 20px;
+    color: black;
+    animation: textEntry 3.5s ease-out forwards;
+  }
+  .women h1{
+    font-size: 5rem;
+    color: black;
+    animation: textEntry 4s ease-out forwards;
+  }
+  .img{
+    width: 5%;
+    opacity: 0.5;
+    animation: textEntry 3.5s ease-out forwards;
+  }
+  .fonttxt {
+    font-size: 3rem;
+  }
+}
