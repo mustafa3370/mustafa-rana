@@ -140,4 +140,10 @@ footer .copy {
   .fonttxt {
     font-size: 2rem;
   }
+  button{
+    margin-top: 5em;
+  padding: 0.2em;
+  padding-left: 3em;
+  padding-right: 3em;
+  }
 }
